@@ -31,64 +31,36 @@
                 android:textSize="@dimen/abc_text_size_headline_material" />
 
             <Button
-                android:layout_width="214dp"
-                android:layout_height="wrap_content"
+                style="@style/Button"
                 android:text="@string/spotify_btn_txt"
                 android:id="@+id/spotifyBtn"
-                android:layout_gravity="center_horizontal"
-                android:minHeight="@dimen/design_fab_size_normal"
-                android:background="@color/btnColor"
                 android:layout_marginTop="20dp"/>
 
             <Button
-                android:layout_width="214dp"
-                android:layout_height="wrap_content"
+                style="@style/Button"
                 android:text="@string/scores_btn_txt"
-                android:id="@+id/scoreAppBtn"
-                android:layout_gravity="center_horizontal"
-                android:minHeight="@dimen/design_fab_size_normal"
-                android:background="@color/btnColor"
-                android:layout_marginTop="10dp"/>
+                android:id="@+id/scoreAppBtn"/>
 
             <Button
-                android:layout_width="214dp"
-                android:layout_height="wrap_content"
+                style="@style/Button"
                 android:text="@string/library_btn_txt"
-                android:id="@+id/libAppBtn"
-                android:layout_gravity="center_horizontal"
-                android:minHeight="@dimen/design_fab_size_normal"
-                android:background="@color/btnColor"
-                android:layout_marginTop="10dp"/>
+                android:id="@+id/libAppBtn"/>
 
             <Button
-                android:layout_width="214dp"
-                android:layout_height="wrap_content"
+                style="@style/Button"
                 android:text="@string/build_btn_txt"
-                android:id="@+id/buildItBigBtn"
-                android:layout_gravity="center_horizontal"
-                android:minHeight="@dimen/design_fab_size_normal"
-                android:background="@color/btnColor"
-                android:layout_marginTop="10dp"/>
+                android:id="@+id/buildItBigBtn"/>
 
             <Button
-                android:layout_width="214dp"
-                android:layout_height="wrap_content"
+                style="@style/Button"
                 android:text="@string/xyz_reader_btn_txt"
-                android:id="@+id/xyzReaderBtn"
-                android:layout_gravity="center_horizontal"
-                android:minHeight="@dimen/design_fab_size_normal"
-                android:background="@color/btnColor"
-                android:layout_marginTop="10dp"/>
+                android:id="@+id/xyzReaderBtn"/>
 
             <Button
-                android:layout_width="214dp"
-                android:layout_height="wrap_content"
+                style="@style/Button"
                 android:text="@string/my_app_btn_txt"
                 android:id="@+id/myAppBtn"
-                android:layout_gravity="center_horizontal"
-                android:minHeight="@dimen/design_fab_size_normal"
-                android:background="@color/myAppBtnColor"
-                android:layout_marginTop="10dp"/>
+                android:background="@color/myAppBtnColor"/>
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
